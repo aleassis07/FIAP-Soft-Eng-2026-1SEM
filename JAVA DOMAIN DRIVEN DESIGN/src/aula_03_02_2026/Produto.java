@@ -11,7 +11,7 @@ public class Produto {
     double peso;
 
     // Métodos
-    public void aumentoPreco(double preco) {
+    public void aumentarPreco(double preco) {
         this.preco += preco;
 
         System.out.println("Preço aumentado com sucesso! " + this.preco);
