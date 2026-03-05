@@ -1,0 +1,13 @@
+name: fiap-ds
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - graphviz
+  - opencv
+  - ffmpeg
+  - rasterio
+  - geopandas
+  - pygraphviz
+  - gdal
+prefix: /opt/anaconda3/envs/tf-312
